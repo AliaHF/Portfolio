@@ -1,0 +1,253 @@
+
+
+ body, html {
+	height: 100%;
+	margin:0;
+	padding:0
+	font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    line-height: 1.7em;
+    letter-spacing: .04ch;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #767676;
+    color: #222;
+
+}
+
+h1, h2 {
+
+  font-weight: 1px;
+  width:100%;
+  font-family: 'Raleway', sans-serif;
+  display:block;
+
+}
+
+ header {
+    height: 10%;
+  }
+
+.header{
+  height: 70px;
+  height: 70px;
+  vertical-align: top;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+  width:100%;
+
+
+}
+
+ /*  banner */
+
+.banner  {
+    
+    
+    background-color: #404141;
+ /* padding: 20px 10px;*/
+   width: 100%;	
+   height: 500px;
+  background-image: url("../images/cover4.jpg");
+   background-size: cover;	 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   display: block;
+    
+   
+}
+
+  
+
+
+
+.cover{
+   text-align: center;
+  position: relative;
+  top: 50%;
+ margin-left: 50%;
+  transform: translate(-50%, -50%);
+  color: #777;
+  font-family: 'Raleway', sans-serif
+
+}
+
+.logo_title {
+ 
+
+  width:70%;
+
+}
+
+/*   navigation list   */
+
+.nav  {
+display:flex;
+height:70%;
+}
+
+.logo {
+ 
+ height: 30px;
+ float: right;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+
+
+}
+
+
+.nav_list {
+	 text-align: left;
+ vertical-align: center;
+  position:absolute;
+
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+
+}
+.nav_item {
+  margin: 10px  15px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #555;
+
+  
+}
+
+.nav a:hover{
+
+	color:#fe9c98;
+	padding-bottom: 10px;
+	text-decoration-line: underline;
+}
+
+
+/*  section   */
+
+section {
+	padding-top: 5%;
+	padding-bottom: 5%;
+    text-align: center;
+    background-color: #efefef;
+	display:flex;
+	
+}
+
+.section_title{
+	width:100%;
+    text-align: left;
+    font-weight: 1px;
+    text-align: center;
+	color:#555;
+	font-family: 'Raleway', sans-serif;
+	display: block;
+}
+
+
+/* about me */
+
+.about{
+   color:#333;
+   display:block;
+   background-color:   #FCCEC0;
+   font-family: 'Indie Flower', cursive;
+   
+}
+
+
+.about_p {
+	margin: 0 20%;
+}
+
+
+
+
+/* work */
+
+.work_heading {
+	display:none; s
+}
+
+.work{
+	
+	width:100%;
+	display:flex;
+}
+
+
+
+/* work flex card */
+
+.flex-container {
+     width: 300px; 
+     border: 2px solid #cbeedc;   
+     border-radius: 4px;                     
+ 	 margin:0px 5%;
+ 	 display: flex;
+ 	 background-color: white;
+    
+}
+.row {
+
+  display: flex; 
+  flex-direction: column;           
+  justify-content: center;  
+  align-items: center;       
+  padding: 0px 0;  
+    
+}
+.flex-header {
+  width:100%;
+  color: #434245;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+    
+}
+
+.project_img{
+  width:100%;
+  margin-bottom: 5px;
+  margin-top:0px;
+
+}
+
+
+p{
+	padding:0px;
+	margin:0px;
+	margin-bottom: 10px;
+}
+
+
+
+/* foooter */
+
+footer{  
+   display:grid;
+  color:white;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+
+}
+
+.udacity_logo{
+	margin-left:50%;
+	width:20px;
+}

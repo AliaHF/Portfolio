@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<title>Alia H. Portfolio</title>
+
+</head>
+<body>
+	<main>
+     <header>
+           <img class="logo" src="images/logo.svg" alt="A.H. logo">
+     	<div class="header">
+
+			<a id="menu" class="header__menu">
+         		 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+           			 <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+         		 </svg>
+
+        	</a>
+
+		<nav  class="nav">
+ 			
+     		 <ul class="nav_list">
+
+      			<li class="nav_item"><a href="#home">Home</a></li>
+        		<li class="nav_item"><a href="#about">About</a></li>
+       			 <li class="nav_item"><a href="#work">Works</a></li>
+    
+     		 </ul>
+    	</nav>
+   	    </div>
+    </header>
+ 
+    
+  	<div class="banner">
+    	 <div class="cover">
+ 			<img class="logo_title" src="Images/logo.svg" alt="logo">
+ 			<h1 class="title">
+        	  Alia H. Portfolio
+      	    </h1>
+   	     </div>
+ 	</div>
+  
+
+
+	<section class="about" id="about">
+		<div class="about_p">
+		   <h2 class="section_title">About Me</h2>
+			<p> I am self taught programmer. I love learning and expanding my knowladge. The more I learn, the more I realize that there's still so much more to learn.  </p>
+		</div>
+	</section>
+ 
+
+
+
+
+	<section  id="work">
+		<h2 class="work_heading">Work</h2>
+		<div class="work">
+ 
+			<div class="flex-container">
+  
+  
+    			<div class="row">
+    				<img class="project_img" src="images/project2.png" alt="Project 1">
+   				 	<span class="flex-header">Mockup to website</span>
+					<p>project 3</p>
+  				</div>
+ 			</div>
+
+
+ 			<div class="flex-container">
+    
+    			 <div class="row">
+    				<img class="project_img" src="images/project1.png" alt="Project 2">
+    				<span class="flex-header">Slack Card</span>
+					<p>project 2</p>
+  				</div>
+  			</div>
+  			<div class="flex-container">
+    
+    			<div class="row">
+    				<img class="project_img" src="images/project3.png" alt="Project 3">
+    				<span class="flex-header">Responsive Web design</span>
+					<p> Project 3</p>
+  				</div>
+  
+			</div>
+		</div>
+
+	</section>
+
+
+    <footer>
+    	 <img class="udacity_logo" src="images/udacity.svg" alt="udacity logo">
+    	 <span>Front-End Nanodegree Udacity. </span>
+    	 <span>2018-2019</span>
+    	     
+    </footer>
+</main>
+
+<script>
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+</script>
+</body>
+</html>
